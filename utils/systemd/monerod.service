@@ -1,0 +1,20 @@
+[Unit]
+Description=APEPEPOW Full Node
+After=network.target
+
+[Service]
+User=apepepow
+Group=apepepow
+WorkingDirectory=~
+StateDirectory=apepepow
+LogsDirectory=apepepow
+
+Type=simple
+ExecStart=/usr/bin/apepepowd --config-file /etc/apepepowd.conf --non-interactive
+StandardOutput=null
+StandardError=null
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

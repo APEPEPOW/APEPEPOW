@@ -1,0 +1,80 @@
+# APEPEPOW hard-fork release check-list
+
+- [ ] Security audit
+- [ ] Code audit
+- [ ] Ledger integration
+  - [ ] Ledger notified
+  - [ ] Pull request made against APEPEPOW codebase (if needed)
+  - [ ] Pull request merged into APEPEPOW codebase (if needed)
+  - [ ] Ledger app integration coded
+  - [ ] Ledger APEPEPOW app update available
+- [ ] Trezor integration
+  - [ ] Trezor notified
+  - [ ] Pull request made against APEPEPOW codebase (if needed)
+  - [ ] Pull request merged into APEPEPOW codebase (if needed)
+  - [ ] Trezor firmware update coded
+  - [ ] Trezor firmware update available
+- [ ] Fork height set
+  - [ ] Twitter announcement
+  - [ ] Reddit announcement
+  - [ ] Getapepepow.org announcement
+- [ ] Notify wallets
+  - [ ] MyMonero
+  - [ ] Coinomi
+  - [ ] Exa Wallet
+  - [ ] Wookey Wallet
+  - [ ] X Wallet
+  - [ ] Guarda
+  - [ ] ZelCore
+  - [ ] Cake Wallet
+  - [ ] Monerujo
+  - [ ] Edge Wallet
+  - [ ] Exodus
+  - [ ] APEPEPOWWallet
+  - [ ] Feather Wallet
+- [ ] Notify exchanges
+  - [ ] https://www.getapepepow.org/community/merchants/#exchanges
+- [ ] Notify 3rd party payment processors
+  - [ ] https://www.getapepepow.org/community/merchants/#payment-gateways
+  - [ ] BTCPayServer
+- [ ] Notify mining pools
+  - [ ] https://miningpoolstats.stream/apepepow
+- [ ] Release branch created
+  - [ ] Update src/version.cpp.in with new version AND new name (if necessary)
+  - [ ] Update Gitian YML files in contrib/gitian/ to the new version number
+  - [ ] Update README.md with new fork table entry (or at least update the Recommended APEPEPOW version)
+  - [ ] Update contrib/gitian/README.md so that the instructions reflect the current version
+  - [ ] Update src/checkpoints/checkpoints.cpp with a recent hardcoded checkpoint
+  - [ ] Update src/blocks/checkpoints.dat with ./apepepow-blockchain-export --output-file checkpoints.dat --block-stop <recent block height> --blocksdat
+  - [ ] Update expected_block_hashes_hash in src/cryptonote_core/blockchain.cpp with checkpoints.dat sha256 hash
+- [ ] Testnet forked
+- [ ] Testnet testing/verification
+  - [ ] Ledger
+  - [ ] Trezor
+  - [ ] Release-specific testing
+  - [ ] RPC testing/update RPC documentation
+- [ ] Stagenet forked
+- [ ] Stagenet testing/verification
+  - [ ] Ledger
+  - [ ] Trezor
+  - [ ] Release-specific testing
+- [ ] CLI reproducible builds validated
+- [ ] CLI released
+  - [ ] https://www.getapepepow.org/downloads/ updated
+  - [ ] Update hashes.txt on website
+  - [ ] Update downloads.yml on website
+  - [ ] Update auto-update DNS records
+  - [ ] Update redirects on downloads box
+  - [ ] Update seed nodes
+- [ ] GUI released
+  - [ ] https://www.getapepepow.org/downloads/ updated
+  - [ ] Update hashes.txt on website
+  - [ ] Update hashes.txt.sig on website
+  - [ ] Update downloads.yml on website
+  - [ ] Update auto-update DNS records
+  - [ ] Update redirects on downloads box
+- [ ] Release Announcements
+  - [ ] APEPEPOW-announce mailer notice
+  - [ ] Twitter announcement
+  - [ ] Reddit announcement
+  - [ ] Getapepepow.org announcement
