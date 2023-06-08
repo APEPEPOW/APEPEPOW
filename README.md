@@ -1,7 +1,7 @@
 # APEPEPOW
 
-Copyright (c) 2014-2023, The APEPEPOW Project
-Portions Copyright (c) 2012-2013 The Cryptonote developers.
+Copyright (c) 2023, The APEPEPOW Project
+Portions Copyright (c) 2012-2023 The Cryptonote developers. The Monero developers.
 
 ## Table of Contents
 
