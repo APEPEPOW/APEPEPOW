@@ -29,7 +29,7 @@
 #ifndef APEPEPOW_CRYPTO_H
 #define APEPEPOW_CRYPTO_H
 
-#include "apepepow/crypto/@APEPEPOW_CRYPTO_LIBRARY@.h"
+#include "monero/crypto/@APEPEPOW_CRYPTO_LIBRARY@.h"
 
 #define apepepow_crypto_ge25519_scalarmult apepepow_crypto_@APEPEPOW_CRYPTO_NAMESPACE@_ge25519_scalarmult
 #define apepepow_crypto_generate_key_derivation apepepow_crypto_@APEPEPOW_CRYPTO_NAMESPACE@_generate_key_derivation
