@@ -29,12 +29,8 @@ Portions Copyright (c) 2012-2023 The Cryptonote developers. The Monero developer
 
 ## Development resources
 
-- Web: [getapepepow.org](https://getapepepow.org)
-- Forum: [forum.getapepepow.org](https://forum.getapepepow.org)
-- Mail: [dev@getapepepow.org](mailto:dev@getapepepow.org)
-- GitHub: [https://github.com/apepepow-project/apepepow](https://github.com/apepepow-project/apepepow)
-- IRC: [#apepepow-dev on Libera](https://web.libera.chat/#apepepow-dev)
-- It is HIGHLY recommended that you join the #apepepow-dev IRC channel if you are developing software that uses APEPEPOW. Due to the nature of this open source software project, joining this channel and idling is the best way to stay updated on best practices and new developments in the APEPEPOW ecosystem. All you need to do is join the IRC channel and idle to stay updated with the latest in APEPEPOW development. If you do not, you risk wasting resources on developing integrations that are not compatible with the APEPEPOW network. The APEPEPOW core team and community continuously make efforts to communicate updates, developments, and documentation via other platforms – but for the best information, you need to talk to other APEPEPOW developers, and they are on IRC. #apepepow-dev is about APEPEPOW development, not getting help about using APEPEPOW, or help about development of other software, including yours, unless it also pertains to APEPEPOW code itself. For these cases, checkout #apepepow.
+- Web: [apepepow.com](https://apepepow.com)
+
 
 ## Vulnerability response
 
