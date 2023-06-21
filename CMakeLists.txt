@@ -364,11 +364,6 @@ if(NOT MANUAL_SUBMODULES)
     endfunction ()
     
     message(STATUS "Checking submodules")
-    check_submodule(external/miniupnp)
-    check_submodule(external/rapidjson)
-    check_submodule(external/trezor-common)
-    check_submodule(external/randomx)
-    check_submodule(external/supercop)
   endif()
 endif()
 
