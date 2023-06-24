@@ -60,8 +60,8 @@
 
 #include "crypto/crypto.h"
 #include "cryptonote_basic/cryptonote_basic.h"
-#include "apepepow/crypto/amd64-64-24k.h"
-#include "apepepow/crypto/amd64-51-30k.h"
+#include "monero/crypto/amd64-64-24k.h"
+#include "monero/crypto/amd64-51-30k.h"
 
 #define CHECK(...)                           \
     if(!( __VA_ARGS__ ))                      \
