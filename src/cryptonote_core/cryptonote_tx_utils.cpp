@@ -674,7 +674,7 @@ namespace cryptonote
   void get_altblock_longhash(const block& b, crypto::hash& res, const crypto::hash& seed_hash)
   {
     blobdata bd = get_block_hashing_blob(b);
-    rx_slow_hash(seed_hash.data, bd.data(), bd.size(), res.data);
+    crypto::meme_hash(bd.data(), res, bd.size());
   }
 
   bool get_block_longhash(const Blockchain *pbc, const blobdata& bd, crypto::hash& res, const uint64_t height, const int major_version, const crypto::hash *seed_hash, const int miners)
